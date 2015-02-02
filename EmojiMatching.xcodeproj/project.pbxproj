@@ -13,6 +13,14 @@
 		0A95A2281A6383200037FE33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A95A2271A6383200037FE33 /* Images.xcassets */; };
 		0A95A22B1A6383200037FE33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A95A2291A6383200037FE33 /* LaunchScreen.xib */; };
 		0A95A2371A6383200037FE33 /* EmojiMatchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A95A2361A6383200037FE33 /* EmojiMatchingTests.swift */; };
+		0A95A2471A63833C0037FE33 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A95A2401A63833C0037FE33 /* Icon-60.png */; };
+		0A95A2481A63833C0037FE33 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A95A2411A63833C0037FE33 /* Icon-72.png */; };
+		0A95A2491A63833C0037FE33 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A95A2421A63833C0037FE33 /* Icon-72@2x.png */; };
+		0A95A24A1A63833C0037FE33 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A95A2431A63833C0037FE33 /* Icon-Small-50.png */; };
+		0A95A24B1A63833C0037FE33 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A95A2441A63833C0037FE33 /* Icon-Small-50@2x.png */; };
+		0A95A24C1A63833C0037FE33 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A95A2451A63833C0037FE33 /* Icon.png */; };
+		0A95A24D1A63833C0037FE33 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A95A2461A63833C0037FE33 /* Icon@2x.png */; };
+		61914F081A79F8BA004A2338 /* EmojiMatchingGameC.m in Sources */ = {isa = PBXBuildFile; fileRef = 61914F071A79F8BA004A2338 /* EmojiMatchingGameC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,16 @@
 		0A95A2301A6383200037FE33 /* EmojiMatchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiMatchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A95A2351A6383200037FE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A95A2361A6383200037FE33 /* EmojiMatchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMatchingTests.swift; sourceTree = "<group>"; };
+		0A95A2401A63833C0037FE33 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		0A95A2411A63833C0037FE33 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0A95A2421A63833C0037FE33 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		0A95A2431A63833C0037FE33 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		0A95A2441A63833C0037FE33 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		0A95A2451A63833C0037FE33 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0A95A2461A63833C0037FE33 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		61914F051A79F8BA004A2338 /* EmojiMatching-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmojiMatching-Bridging-Header.h"; sourceTree = "<group>"; };
+		61914F061A79F8BA004A2338 /* EmojiMatchingGameC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiMatchingGameC.h; sourceTree = "<group>"; };
+		61914F071A79F8BA004A2338 /* EmojiMatchingGameC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiMatchingGameC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +97,13 @@
 			children = (
 				0A95A2201A6383200037FE33 /* AppDelegate.swift */,
 				0A95A2221A6383200037FE33 /* ViewController.swift */,
+				61914F071A79F8BA004A2338 /* EmojiMatchingGameC.m */,
+				61914F061A79F8BA004A2338 /* EmojiMatchingGameC.h */,
 				0A95A2241A6383200037FE33 /* Main.storyboard */,
 				0A95A2271A6383200037FE33 /* Images.xcassets */,
 				0A95A2291A6383200037FE33 /* LaunchScreen.xib */,
 				0A95A21E1A6383200037FE33 /* Supporting Files */,
+				61914F051A79F8BA004A2338 /* EmojiMatching-Bridging-Header.h */,
 			);
 			path = EmojiMatching;
 			sourceTree = "<group>";
@@ -90,6 +111,13 @@
 		0A95A21E1A6383200037FE33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A95A2401A63833C0037FE33 /* Icon-60.png */,
+				0A95A2411A63833C0037FE33 /* Icon-72.png */,
+				0A95A2421A63833C0037FE33 /* Icon-72@2x.png */,
+				0A95A2431A63833C0037FE33 /* Icon-Small-50.png */,
+				0A95A2441A63833C0037FE33 /* Icon-Small-50@2x.png */,
+				0A95A2451A63833C0037FE33 /* Icon.png */,
+				0A95A2461A63833C0037FE33 /* Icon@2x.png */,
 				0A95A21F1A6383200037FE33 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +220,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A95A24C1A63833C0037FE33 /* Icon.png in Resources */,
 				0A95A2261A6383200037FE33 /* Main.storyboard in Resources */,
+				0A95A24A1A63833C0037FE33 /* Icon-Small-50.png in Resources */,
+				0A95A24B1A63833C0037FE33 /* Icon-Small-50@2x.png in Resources */,
+				0A95A2481A63833C0037FE33 /* Icon-72.png in Resources */,
+				0A95A2491A63833C0037FE33 /* Icon-72@2x.png in Resources */,
 				0A95A22B1A6383200037FE33 /* LaunchScreen.xib in Resources */,
+				0A95A2471A63833C0037FE33 /* Icon-60.png in Resources */,
 				0A95A2281A6383200037FE33 /* Images.xcassets in Resources */,
+				0A95A24D1A63833C0037FE33 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61914F081A79F8BA004A2338 /* EmojiMatchingGameC.m in Sources */,
 				0A95A2231A6383200037FE33 /* ViewController.swift in Sources */,
 				0A95A2211A6383200037FE33 /* AppDelegate.swift in Sources */,
 			);
@@ -338,9 +374,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EmojiMatching/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EmojiMatching/EmojiMatching-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +387,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EmojiMatching/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EmojiMatching/EmojiMatching-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +448,7 @@
 				0A95A23C1A6383200037FE33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A95A23D1A6383200037FE33 /* Build configuration list for PBXNativeTarget "EmojiMatchingTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +457,7 @@
 				0A95A23F1A6383200037FE33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
